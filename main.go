@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	//var ages [3]int = [3]int{20, 25, 30}
 	var ages = [3]int{20, 25, 30}
-	names := [2]string{"bola", "james"}
+	names := [4]string{"bola", "james", "kunle", "dolapo"}
 
 	fmt.Println(ages, len(ages))
 	fmt.Println(names, len(names))
@@ -22,4 +22,15 @@ func main() {
 	scores = append(scores, 70)
 	sizeOfScores = len(scores)
 	fmt.Println(scores, sizeOfScores)
+
+	//slice range
+
+	rangeOne := names[1:3]
+	rangeTwo := names[2:]
+	rangeThree := names[:3]
+
+	fmt.Println(rangeOne, rangeTwo, rangeThree)
+
+	rangeOne = append(rangeOne, "koppa")
+	fmt.Println(rangeOne)
 }
