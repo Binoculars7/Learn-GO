@@ -23,7 +23,7 @@ func main() {
 	sizeOfScores = len(scores)
 	fmt.Println(scores, sizeOfScores)
 
-	//slice range ()
+	//slice range ()hhhh
 
 	rangeOne := names[1:3]
 	rangeTwo := names[2:]

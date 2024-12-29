@@ -20,7 +20,7 @@ func main() {
 	// sizeOfNames := len(names)
 	// for i := 0; i < sizeOfNames; i++ {
 	// 	name := names[i]
-	// 	fmt.Printf("Number %v is %v \n", i, name)
+	// 	fmt.Printf("Numbers %v is %v \n", i, name)
 	// }
 
 	names := []string{"ja", "ba", "co", "so", "me", "you"}
