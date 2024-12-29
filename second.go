@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	//greetings := "Season greetings to you all"
+	//greetings := "Season greetings to you all 0000o"
 
 	// fmt.Println(strings.Contains(greetings, "you"))
 	// fmt.Println(strings.ReplaceAll(greetings, "greetings", "messages"))
