@@ -15,7 +15,7 @@ func main() {
 	// } else if age > 50 {
 	// 	fmt.Println("age is less that 30")
 	// } else {
-	// 	fmt.Println("age is 30")
+	// 	fmt.Println("age is 30 -")
 	// }
 
 	names := []string{"ja", "ba", "co", "so", "me", "you"}
