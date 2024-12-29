@@ -10,7 +10,7 @@ func main() {
 	fmt.Println(ages, len(ages))
 	fmt.Println(names, len(names))
 
-	// slices
+	// slices 000
 
 	scores := []int{100, 30, 50}
 	sizeOfScores := len(scores)
@@ -23,7 +23,7 @@ func main() {
 	sizeOfScores = len(scores)
 	fmt.Println(scores, sizeOfScores)
 
-	//slice range
+	//slice range ()
 
 	rangeOne := names[1:3]
 	rangeTwo := names[2:]
