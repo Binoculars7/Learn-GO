@@ -12,7 +12,7 @@ func main() {
 
 	stateMemAddress := &state
 
-	//fmt.Println(state)
+	///fmt.Println(state)
 	fmt.Println(stateMemAddress)
 	fmt.Println(state)
 	fmt.Println(updateVal(stateMemAddress))
